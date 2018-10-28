@@ -47,6 +47,9 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Dockerfile" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <MonoDevelop>
